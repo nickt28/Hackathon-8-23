@@ -17,40 +17,37 @@
 </head>
 
 <body>
-  <div class="hero_area">
-    <section class="slider_section">
-      <div class="container-fluid">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-md-3 col-lg-2 offset-md-2">
-                  <div class="detail-box">
-                    <h1>
-                      Your Green Points
-                    </h1>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority
-                    </p>
-                    <div>
-                      <a href="">
-                        My Goals
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-7 col-lg-8">
-                  <div class="img-box">
-                    <img src="img/yourscore.svg" alt="" />
-                  </div>
-                </div>
-              </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="./images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Bootstrap
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Features</a>
+        <a class="nav-item nav-link" href="#">Pricing</a>
+        <a class="nav-item nav-link disabled" href="#">Disabled</a>
+      </div>
+    </div>
+  </nav>
+  <div class="hero_area d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 d-flex align-items-center">
+          <div class="detail-box">
+            <h1 class="display-4">Your Green Points</h1>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+            <div>
+			  <a href="#" class="badge badge-danger px-5 py-4">Read More</a>
             </div>
           </div>
         </div>
         <div class="col-sm">
-          <img src="./images/hero.png" class="img-fluid" alt="Hero">
+          <img src="./img/yourscore.svg" class="img-fluid" alt="Hero">
         </div>
       </div>
   </div>
