@@ -40,7 +40,7 @@
                 fillColor: '#f03',
                 fillOpacity: 0.5,
                 radius: data[i]['Installations Quantity Total'] / 2
-            }).addTo(map);
+            }).addTo(map).bindPopup('kW Output: ' + data[i]['SGU Rated Output In kW Total']);
         }
     </script>
 </body>
