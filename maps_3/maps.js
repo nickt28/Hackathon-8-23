@@ -1,16 +1,15 @@
-// import data from './australian-states.json' assert { type: 'json' };
+import data from './solar.json' assert { type: 'json' };
 
 let map;
 
 function initMap() {
+  console.log(data);
+    
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 20, lng: -160 },
     zoom: 2,
   });
-
-  // Get the earthquake data (JSONP format)
-  // This feed is a copy from the USGS feed, you can find the originals here:
-  //   http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+  
   const script = document.createElement("script");
 
   script.setAttribute(
@@ -18,10 +17,10 @@ function initMap() {
     "https://storage.googleapis.com/mapsdevsite/json/quakes.geo.json",
   );
   document.getElementsByTagName("head")[0].appendChild(script);
-  // Add a basic style.
+
   map.data.setStyle((feature) => {
     const mag = Math.exp(parseFloat(feature.getProperty("mag"))) * 0.1;
-    return /** @type {google.maps.Data.StyleOptions} */ {
+    return {
       icon: {
         path: google.maps.SymbolPath.CIRCLE,
         scale: mag,
@@ -33,7 +32,6 @@ function initMap() {
   });
 }
 
-// Defines the callback function referenced in the jsonp file.
 function eqfeed_callback(data) {
   map.data.addGeoJson(data);
 }
