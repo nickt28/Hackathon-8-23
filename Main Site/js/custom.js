@@ -84,3 +84,22 @@ var myCircle = Circles.create({
     styleWrapper: true,
     styleText: true
 });
+var myCircle = Circles.create({
+    id: "circles-5",
+    radius: 65,
+    value: 85,
+    maxValue: 100,
+    width: 5,
+    text: function (value) {
+        return value + "%";
+    },
+    colors: ["transparent", "#ffffff"],
+    duration: 400,
+    wrpClass: "circles-wrp",
+    textClass: "progress_text",
+    valueStrokeClass: "circles-valueStroke",
+    maxValueStrokeClass: "circles-maxValueStroke",
+    styleWrapper: true,
+    styleText: true
+});
+
