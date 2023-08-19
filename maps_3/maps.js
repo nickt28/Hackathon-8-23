@@ -32,7 +32,19 @@ function initMap() {
   
   const pdata = geoEnc(solarData);
   map.data.addGeoJson(pdata);
-  
+
+  const infowindow = new google.maps.InfoWindow();
+
+  map.data.addListener("mouseover", (event) => {
+    const iqt = event.feature.getProperty("iqt");
+    const kw = event.feature.getProperty("kw");
+    const postcode = event.feature.getProperty("postcode");
+    const content = `<div><strong>Installations Quantity Total:</strong> ${iqt}</div><div><strong>SGU Rated Output In kW Total:</strong> ${kw}</div><div><strong>Postcode:</strong> ${postcode}</div>`;
+    infowindow.setContent(content);
+    infowindow.setPosition(event.latLng);
+    infowindow.open(map);
+  });
+
   // const script = document.createElement("script");
   // script.setAttribute(
   //   "src",
