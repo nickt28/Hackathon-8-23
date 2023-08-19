@@ -94,36 +94,6 @@ body {
   padding-left: 25px;
 }
 
-.header_section .nav_container {
-  margin: 0 auto;
-}
-
-.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 10px 30px;
-  color: #070101;
-  text-align: center;
-}
-
-.custom_nav-container .user_option {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.custom_nav-container .user_option .login_btn-container a {
-  display: inline-block;
-  padding: 10px 30px;
-  color: #070101;
-  text-align: center;
-}
-
 a,
 a:hover,
 a:focus {
@@ -150,18 +120,6 @@ a:focus {
   height: 35px;
   padding: 0;
   border: none;
-}
-
-.navbar-brand img {
-  width: 45px;
-}
-
-.navbar-brand,
-.navbar-brand:hover {
-  color: #0878a0;
-  font-size: 22px;
-  font-weight: 600;
-  text-transform: uppercase;
 }
 
 .custom_nav-container {
