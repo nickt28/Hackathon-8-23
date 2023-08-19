@@ -35,12 +35,17 @@
         // }).addTo(map).bindPopup('I am a circle.');
 
         for (var i = 0,l=data.length; i<l; i++) {
-            var circle = L.circle([data[i].latitude, data[i].longitude], {
+            const lat = data[i].latitude
+            const long = data[i].longitude
+            const install = data[i]['Installations Quantity Total']
+            const output = data[i]['SGU Rated Output In kW Total']
+
+            var circle = L.circle([lat, long], {
                 color: 'red',
                 fillColor: '#f03',
                 fillOpacity: 0.5,
-                radius: data[i]['Installations Quantity Total'] / 2
-            }).addTo(map).bindPopup('kW Output: ' + data[i]['SGU Rated Output In kW Total']);
+                radius: install / 2
+            }).addTo(map).bindPopup('kW Output: ' + output + '<br> SGU Rated kW Output:' + install);
         }
     </script>
 </body>
