@@ -1,0 +1,728 @@
+[
+ {
+   "postcode": 7000,
+   "Solar Exposure": 8.094288,
+   "latitude": "-42.8744692",
+   "longitude": 147.3100401
+ },
+ {
+   "postcode": 7001,
+   "Solar Exposure": 8.09971531,
+   "latitude": "-25.274398",
+   "longitude": 133.775136
+ },
+ {
+   "postcode": 7002,
+   "Solar Exposure": 8.438267278,
+   "latitude": "-25.274398",
+   "longitude": 133.775136
+ },
+ {
+   "postcode": 7004,
+   "Solar Exposure": 8.415660936,
+   "latitude": "-42.89549179999999",
+   "longitude": 147.2829703
+ },
+ {
+   "postcode": 7005,
+   "Solar Exposure": 8.896679169,
+   "latitude": "-42.9148213",
+   "longitude": 147.3433798
+ },
+ {
+   "postcode": 7006,
+   "Solar Exposure": 8.359943746,
+   "latitude": "-25.274398",
+   "longitude": 133.775136
+ },
+ {
+   "postcode": 7007,
+   "Solar Exposure": 8.418037728,
+   "latitude": "-42.9206944",
+   "longitude": 147.3230375
+ },
+ {
+   "postcode": 7008,
+   "Solar Exposure": 8.510008509,
+   "latitude": "-42.8667403",
+   "longitude": 147.2858972
+ },
+ {
+   "postcode": 7009,
+   "Solar Exposure": 8.168494858,
+   "latitude": "-42.8418713",
+   "longitude": 147.3008839
+ },
+ {
+   "postcode": 7010,
+   "Solar Exposure": 8.72068952,
+   "latitude": "-42.8372769",
+   "longitude": 147.2556802
+ },
+ {
+   "postcode": 7011,
+   "Solar Exposure": 8.599980949,
+   "latitude": "-42.7954134",
+   "longitude": 147.2330077
+ },
+ {
+   "postcode": 7012,
+   "Solar Exposure": 8.608715461,
+   "latitude": "-42.8373287",
+   "longitude": 147.1788375
+ },
+ {
+   "postcode": 7015,
+   "Solar Exposure": 8.552613645,
+   "latitude": "-42.8394367",
+   "longitude": 147.3550909
+ },
+ {
+   "postcode": 7016,
+   "Solar Exposure": 8.87748588,
+   "latitude": "-42.8037216",
+   "longitude": 147.366961
+ },
+ {
+   "postcode": 7017,
+   "Solar Exposure": 8.573831093,
+   "latitude": "-42.7007869",
+   "longitude": 147.3379482
+ },
+ {
+   "postcode": 7018,
+   "Solar Exposure": 8.817983102,
+   "latitude": "-42.8727195",
+   "longitude": 147.3974376
+ },
+ {
+   "postcode": 7019,
+   "Solar Exposure": 8.617964413,
+   "latitude": "-42.8951371",
+   "longitude": 147.4367555
+ },
+ {
+   "postcode": 7020,
+   "Solar Exposure": 8.058903774,
+   "latitude": "-42.9517898",
+   "longitude": 147.4748606
+ },
+ {
+   "postcode": 7021,
+   "Solar Exposure": 8.832099865,
+   "latitude": "-42.9042835",
+   "longitude": 147.4888173
+ },
+ {
+   "postcode": 7022,
+   "Solar Exposure": 8.046911335,
+   "latitude": "-43.0329872",
+   "longitude": 147.4263497
+ },
+ {
+   "postcode": 7023,
+   "Solar Exposure": 8.129341424,
+   "latitude": "-42.99288809999999",
+   "longitude": 147.4094671
+ },
+ {
+   "postcode": 7024,
+   "Solar Exposure": 8.995598923,
+   "latitude": "-42.9500417",
+   "longitude": 147.5238773
+ },
+ {
+   "postcode": 7025,
+   "Solar Exposure": 8.108620709,
+   "latitude": "-42.7346405",
+   "longitude": 147.4131838
+ },
+ {
+   "postcode": 7026,
+   "Solar Exposure": 8.656810606,
+   "latitude": "-42.6170473",
+   "longitude": 147.4454484
+ },
+ {
+   "postcode": 7027,
+   "Solar Exposure": 8.606158831,
+   "latitude": "-42.5433272",
+   "longitude": 147.3373288
+ },
+ {
+   "postcode": 7030,
+   "Solar Exposure": 8.372968162,
+   "latitude": "-42.1876915",
+   "longitude": 147.0214014
+ },
+ {
+   "postcode": 7050,
+   "Solar Exposure": 8.539091411,
+   "latitude": "-42.9553592",
+   "longitude": 147.2997707
+ },
+ {
+   "postcode": 7051,
+   "Solar Exposure": 8.433110632,
+   "latitude": "-25.274398",
+   "longitude": 133.775136
+ },
+ {
+   "postcode": 7052,
+   "Solar Exposure": 8.410477454,
+   "latitude": "-43.0090716",
+   "longitude": 147.3203772
+ },
+ {
+   "postcode": 7053,
+   "Solar Exposure": 8.442593548,
+   "latitude": "-42.9517774",
+   "longitude": 147.3427927
+ },
+ {
+   "postcode": 7054,
+   "Solar Exposure": 8.607818993,
+   "latitude": "-42.8994454",
+   "longitude": 147.2181098
+ },
+ {
+   "postcode": 7055,
+   "Solar Exposure": 8.647161952,
+   "latitude": "-43.001318",
+   "longitude": 147.2961559
+ },
+ {
+   "postcode": 7109,
+   "Solar Exposure": 8.57537142,
+   "latitude": "-43.267535",
+   "longitude": 146.8775919
+ },
+ {
+   "postcode": 7112,
+   "Solar Exposure": 8.294847919,
+   "latitude": "-43.1426974",
+   "longitude": 147.1092455
+ },
+ {
+   "postcode": 7113,
+   "Solar Exposure": 8.687939812,
+   "latitude": "-43.0925056",
+   "longitude": 146.9848853
+ },
+ {
+   "postcode": 7116,
+   "Solar Exposure": 8.777275426,
+   "latitude": "-43.1516532",
+   "longitude": 146.8904415
+ },
+ {
+   "postcode": 7117,
+   "Solar Exposure": 8.207904918,
+   "latitude": "-43.3040071",
+   "longitude": 147.020751
+ },
+ {
+   "postcode": 7119,
+   "Solar Exposure": 8.904547815,
+   "latitude": "-42.3909939",
+   "longitude": 147.3814688
+ },
+ {
+   "postcode": 7120,
+   "Solar Exposure": 8.805865029,
+   "latitude": "-42.3702085",
+   "longitude": 147.592724
+ },
+ {
+   "postcode": 7140,
+   "Solar Exposure": 8.647203984,
+   "latitude": "-42.5170721",
+   "longitude": 146.5885592
+ },
+ {
+   "postcode": 7150,
+   "Solar Exposure": 8.318390781,
+   "latitude": "-43.3937074",
+   "longitude": 147.2679116
+ },
+ {
+   "postcode": 7155,
+   "Solar Exposure": 8.251485172,
+   "latitude": "-43.1254976",
+   "longitude": 147.2260865
+ },
+ {
+   "postcode": 7162,
+   "Solar Exposure": 8.07231459,
+   "latitude": "-43.1614802",
+   "longitude": 147.2140173
+ },
+ {
+   "postcode": 7163,
+   "Solar Exposure": 8.737960367,
+   "latitude": "-43.22724669999999",
+   "longitude": 147.2323889
+ },
+ {
+   "postcode": 7170,
+   "Solar Exposure": 8.651804653,
+   "latitude": "-42.8507505",
+   "longitude": 147.468076
+ },
+ {
+   "postcode": 7171,
+   "Solar Exposure": 8.562674624,
+   "latitude": "-42.765277",
+   "longitude": 147.5095171
+ },
+ {
+   "postcode": 7172,
+   "Solar Exposure": 8.782677657,
+   "latitude": "-42.7276445",
+   "longitude": 147.6082338
+ },
+ {
+   "postcode": 7173,
+   "Solar Exposure": 8.247739029,
+   "latitude": "-42.8403868",
+   "longitude": 147.6846018
+ },
+ {
+   "postcode": 7174,
+   "Solar Exposure": 8.414047602,
+   "latitude": "-42.8274145",
+   "longitude": 147.7685875
+ },
+ {
+   "postcode": 7175,
+   "Solar Exposure": 8.578209396,
+   "latitude": "-42.75695109999999",
+   "longitude": 147.857553
+ },
+ {
+   "postcode": 7176,
+   "Solar Exposure": 8.607202829,
+   "latitude": "-42.7559134",
+   "longitude": 147.7915641
+ },
+ {
+   "postcode": 7177,
+   "Solar Exposure": 8.986923586,
+   "latitude": "-42.8784013",
+   "longitude": 147.8054144
+ },
+ {
+   "postcode": 7178,
+   "Solar Exposure": 8.984422321,
+   "latitude": "-42.9554818",
+   "longitude": 147.8939551
+ },
+ {
+   "postcode": 7179,
+   "Solar Exposure": 8.136605083,
+   "latitude": "-42.9956989",
+   "longitude": 147.9278156
+ },
+ {
+   "postcode": 7180,
+   "Solar Exposure": 8.239039474,
+   "latitude": "-43.0617175",
+   "longitude": 147.8701537
+ },
+ {
+   "postcode": 7182,
+   "Solar Exposure": 8.40057096,
+   "latitude": "-43.1331509",
+   "longitude": 147.9243011
+ },
+ {
+   "postcode": 7183,
+   "Solar Exposure": 8.658125357,
+   "latitude": "-43.1507595",
+   "longitude": 147.7748275
+ },
+ {
+   "postcode": 7184,
+   "Solar Exposure": 8.628487378,
+   "latitude": "-43.1737113",
+   "longitude": 147.7373056
+ },
+ {
+   "postcode": 7185,
+   "Solar Exposure": 8.412430695,
+   "latitude": "-43.0563133",
+   "longitude": 147.7583192
+ },
+ {
+   "postcode": 7186,
+   "Solar Exposure": 8.987240288,
+   "latitude": "-43.0208489",
+   "longitude": 147.6929029
+ },
+ {
+   "postcode": 7187,
+   "Solar Exposure": 8.747493034,
+   "latitude": "-43.0808492",
+   "longitude": 147.8206282
+ },
+ {
+   "postcode": 7190,
+   "Solar Exposure": 8.222232269,
+   "latitude": "-42.4174663",
+   "longitude": 147.8670095
+ },
+ {
+   "postcode": 7209,
+   "Solar Exposure": 8.970350149,
+   "latitude": "-42.101126",
+   "longitude": 147.6020553
+ },
+ {
+   "postcode": 7210,
+   "Solar Exposure": 8.592471175,
+   "latitude": "-41.9609817",
+   "longitude": 147.6479099
+ },
+ {
+   "postcode": 7211,
+   "Solar Exposure": 8.333310635,
+   "latitude": "-41.7954517",
+   "longitude": 147.4289618
+ },
+ {
+   "postcode": 7212,
+   "Solar Exposure": 8.147675887,
+   "latitude": "-41.5934307",
+   "longitude": 147.4572613
+ },
+ {
+   "postcode": 7213,
+   "Solar Exposure": 8.089841837,
+   "latitude": "-41.8509077",
+   "longitude": 147.7878006
+ },
+ {
+   "postcode": 7214,
+   "Solar Exposure": 8.414716876,
+   "latitude": "-41.5180471",
+   "longitude": 147.9465902
+ },
+ {
+   "postcode": 7215,
+   "Solar Exposure": 8.951851815,
+   "latitude": "-41.6050056",
+   "longitude": 148.2278837
+ },
+ {
+   "postcode": 7216,
+   "Solar Exposure": 8.272482783,
+   "latitude": "-41.2708866",
+   "longitude": 148.1277503
+ },
+ {
+   "postcode": 7248,
+   "Solar Exposure": 8.454580195,
+   "latitude": "-41.3887982",
+   "longitude": 147.1446457
+ },
+ {
+   "postcode": 7249,
+   "Solar Exposure": 8.042026775,
+   "latitude": "-41.4740678",
+   "longitude": 147.1575845
+ },
+ {
+   "postcode": 7250,
+   "Solar Exposure": 8.567485656,
+   "latitude": "-41.45012",
+   "longitude": 147.0977983
+ },
+ {
+   "postcode": 7252,
+   "Solar Exposure": 8.271166989,
+   "latitude": "-41.08669250000001",
+   "longitude": 147.061503
+ },
+ {
+   "postcode": 7253,
+   "Solar Exposure": 8.901835641,
+   "latitude": "-41.0894117",
+   "longitude": 146.8934925
+ },
+ {
+   "postcode": 7254,
+   "Solar Exposure": 8.360620838,
+   "latitude": "-41.1251491",
+   "longitude": 147.240896
+ },
+ {
+   "postcode": 7255,
+   "Solar Exposure": 8.840812806,
+   "latitude": "-39.9836386",
+   "longitude": 148.052689
+ },
+ {
+   "postcode": 7256,
+   "Solar Exposure": 8.770555668,
+   "latitude": "-39.87534770000001",
+   "longitude": 143.9370758
+ },
+ {
+   "postcode": 7257,
+   "Solar Exposure": 8.484409372,
+   "latitude": "-40.3982432",
+   "longitude": 148.2014489
+ },
+ {
+   "postcode": 7258,
+   "Solar Exposure": 8.156414926,
+   "latitude": "-41.5159459",
+   "longitude": 147.2437064
+ },
+ {
+   "postcode": 7259,
+   "Solar Exposure": 8.126249371,
+   "latitude": "-41.3420719",
+   "longitude": 147.3862417
+ },
+ {
+   "postcode": 7260,
+   "Solar Exposure": 8.85649091,
+   "latitude": "-41.1510634",
+   "longitude": 147.5014271
+ },
+ {
+   "postcode": 7261,
+   "Solar Exposure": 8.121899249,
+   "latitude": "-41.1585814",
+   "longitude": 147.7357075
+ },
+ {
+   "postcode": 7262,
+   "Solar Exposure": 8.771510831,
+   "latitude": "-40.9608794",
+   "longitude": 147.6155813
+ },
+ {
+   "postcode": 7263,
+   "Solar Exposure": 8.534498805,
+   "latitude": "-41.29268769999999",
+   "longitude": 147.7111044
+ },
+ {
+   "postcode": 7264,
+   "Solar Exposure": 8.488589673,
+   "latitude": "-41.0222132",
+   "longitude": 148.0537476
+ },
+ {
+   "postcode": 7265,
+   "Solar Exposure": 8.375754119,
+   "latitude": "-41.0393927",
+   "longitude": 147.8064483
+ },
+ {
+   "postcode": 7267,
+   "Solar Exposure": 8.400453582,
+   "latitude": "-41.2709385",
+   "longitude": 147.1333157
+ },
+ {
+   "postcode": 7268,
+   "Solar Exposure": 8.911563138,
+   "latitude": "-41.2768005",
+   "longitude": 147.2408258
+ },
+ {
+   "postcode": 7270,
+   "Solar Exposure": 8.053230385,
+   "latitude": "-41.19581609999999",
+   "longitude": 146.7530872
+ },
+ {
+   "postcode": 7275,
+   "Solar Exposure": 8.500333786,
+   "latitude": "-41.3302463",
+   "longitude": 146.8739436
+ },
+ {
+   "postcode": 7276,
+   "Solar Exposure": 8.261520154,
+   "latitude": "-41.27901629999999",
+   "longitude": 146.9660668
+ },
+ {
+   "postcode": 7277,
+   "Solar Exposure": 8.204847691,
+   "latitude": "-41.3812198",
+   "longitude": 146.9726748
+ },
+ {
+   "postcode": 7290,
+   "Solar Exposure": 8.117090052,
+   "latitude": "-41.5100237",
+   "longitude": 147.0610516
+ },
+ {
+   "postcode": 7291,
+   "Solar Exposure": 8.872095638,
+   "latitude": "-41.54898420000001",
+   "longitude": 147.0184513
+ },
+ {
+   "postcode": 7292,
+   "Solar Exposure": 8.179733382,
+   "latitude": "-41.4768372",
+   "longitude": 146.9135998
+ },
+ {
+   "postcode": 7300,
+   "Solar Exposure": 8.362724968,
+   "latitude": "-41.627092",
+   "longitude": 147.2320073
+ },
+ {
+   "postcode": 7301,
+   "Solar Exposure": 8.000918222,
+   "latitude": "-41.6061044",
+   "longitude": 147.0767717
+ },
+ {
+   "postcode": 7302,
+   "Solar Exposure": 8.596866828,
+   "latitude": "-41.7808695",
+   "longitude": 147.0820342
+ },
+ {
+   "postcode": 7303,
+   "Solar Exposure": 8.253164022,
+   "latitude": "-41.5574882",
+   "longitude": 146.807507
+ },
+ {
+   "postcode": 7304,
+   "Solar Exposure": 8.749381211,
+   "latitude": "-41.7246682",
+   "longitude": 146.5526657
+ },
+ {
+   "postcode": 7305,
+   "Solar Exposure": 8.511624709,
+   "latitude": "-41.36691330000001",
+   "longitude": 146.4590156
+ },
+ {
+   "postcode": 7306,
+   "Solar Exposure": 8.506238561,
+   "latitude": "-41.6653269",
+   "longitude": 146.0234118
+ },
+ {
+   "postcode": 7307,
+   "Solar Exposure": 8.18690496,
+   "latitude": "-41.2301525",
+   "longitude": 146.5081573
+ },
+ {
+   "postcode": 7310,
+   "Solar Exposure": 8.06477903,
+   "latitude": "-41.3586159",
+   "longitude": 146.2018576
+ },
+ {
+   "postcode": 7315,
+   "Solar Exposure": 8.266859546,
+   "latitude": "-41.3068098",
+   "longitude": 146.1037444
+ },
+ {
+   "postcode": 7316,
+   "Solar Exposure": 8.7708811,
+   "latitude": "-41.2131788",
+   "longitude": 145.9953724
+ },
+ {
+   "postcode": 7320,
+   "Solar Exposure": 8.429507102,
+   "latitude": "-41.0701328",
+   "longitude": 145.8962992
+ },
+ {
+   "postcode": 7321,
+   "Solar Exposure": 8.699290151,
+   "latitude": "-41.3712549",
+   "longitude": 145.6095169
+ },
+ {
+   "postcode": 7322,
+   "Solar Exposure": 8.458018423,
+   "latitude": "-41.0574425",
+   "longitude": 145.7875622
+ },
+ {
+   "postcode": 7325,
+   "Solar Exposure": 8.74447383,
+   "latitude": "-41.0680807",
+   "longitude": 145.6211457
+ },
+ {
+   "postcode": 7330,
+   "Solar Exposure": 8.345248914,
+   "latitude": "-40.8894957",
+   "longitude": 144.9885732
+ },
+ {
+   "postcode": 7331,
+   "Solar Exposure": 8.212474204,
+   "latitude": "-40.7578918",
+   "longitude": 145.2841706
+ },
+ {
+   "postcode": 7466,
+   "Solar Exposure": 8.513036725,
+   "latitude": "-42.07996199999999",
+   "longitude": 145.6198335
+ },
+ {
+   "postcode": 7467,
+   "Solar Exposure": 8.870786085,
+   "latitude": "-42.0785959",
+   "longitude": 145.5437939
+ },
+ {
+   "postcode": 7468,
+   "Solar Exposure": 8.306562696,
+   "latitude": "-42.18283419999999",
+   "longitude": 145.4170575
+ },
+ {
+   "postcode": 7469,
+   "Solar Exposure": 8.005521111,
+   "latitude": "-41.9147711",
+   "longitude": 145.1811766
+ },
+ {
+   "postcode": 7470,
+   "Solar Exposure": 8.729774572,
+   "latitude": "-41.8041385",
+   "longitude": 145.5425955
+ },
+ {
+   "postcode": 7802,
+   "Solar Exposure": 8.997695117,
+   "latitude": "-25.274398",
+   "longitude": 133.775136
+ },
+ {
+   "postcode": 8576,
+   "Solar Exposure": 8.986334749,
+   "latitude": "-25.274398",
+   "longitude": 133.775136
+ },
+ {
+   "postcode": 9729,
+   "Solar Exposure": 8.413464975,
+   "latitude": "-25.274398",
+   "longitude": 133.775136
+ }
+]
