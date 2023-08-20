@@ -37,20 +37,18 @@
     <!-- E N D  N A V B A R -->
 
     <!-- Circles here -->
-    <div class="container">
+    <div class="container text-center my-5">
         <div class="custom_heading-container">
-            <h2>
-              Your Environmental Contribution
-            </h2>
+            <h2>Your Environmental Contribution</h2>
         </div>
         <div class="row">
             <div class="col">
                 <div class="circle" id="b-circles-1"></div>
-                <h6>Energy consumed</h6>
+                <h6>Total Emissions</h6>
             </div>
             <div class="col">
                 <div class="circle" id="b-circles-2"></div>
-                <h6>Contribution of carbon emissions</h6>
+                <h6>Renewables</h6>
             </div>
         </div>
     </div>
@@ -59,11 +57,11 @@
             var myCircle = Circles.create({
                 id: "b-circles-1",
                 radius: 65,
-                value: 4301,
-                maxValue: 4301,
+                value: 342,
+                maxValue: 342,
                 width: 5,
                 text: function (value) {
-                    return value + "kw";
+                    return value + "";
                 },
                 colors: ["transparent", "#22b81f"],
                 duration: 400,
@@ -77,11 +75,11 @@
             var myCircle = Circles.create({
                 id: "b-circles-2",
                 radius: 65,
-                value: 49,
-                maxValue: 100,
+                value: 766,
+                maxValue: 766,
                 width: 5,
                 text: function (value) {
-                    return value + "%";
+                    return value + "";
                 },
                 colors: ["transparent", "#22b81f"],
                 duration: 400,
@@ -259,6 +257,9 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/circles.min.js"></script>
+    <script>
+        makeCircle()
+    </script>
 </body>
 
 </html>
