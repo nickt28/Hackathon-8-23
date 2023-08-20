@@ -169,7 +169,7 @@
         </h2>
       </div>
       <div class="skill_padding">
-        <div class="row">
+        <div id="allBuckets" class="row">
           <div class="col-md-3 col-sm-6">
             <div class="box">
               <div class="circle" id="circles-1"></div>
@@ -225,23 +225,79 @@
 				<div class="modal-body py-o pt-3">
 					<div class="input-group">
 						<div class="input-group-prepend">
-						  <span class="input-group-text" id="basic-addon1">Title</span>
+						  <span class="input-group-text">Title</span>
 						</div>
-						<input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+						<input type="text" class="form-control" placeholder="" aria-label="title" id="iTitle" aria-describedby="title">
 					</div>
 				</div>
 				<div class="modal-body py-0">
 					<div class="input-group mb-3">
 						<div class="input-group-prepend">
-						  <span class="input-group-text" id="basic-addon1">Progress</span>
+						  <span class="input-group-text">Progress</span>
 						</div>
-						<input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+						<input type="text" class="form-control" placeholder="" aria-label="progress" id="iProgress" aria-describedby="progress">
 					</div>
 				</div>
 				<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Add</button>
+				<button id="addBucket" type="button" class="btn btn-primary">Add</button>
 				</div>
+				<script>
+					const titleInput = document.getElementById("iTitle");
+					const progressInput = document.getElementById("iProgress");
+					const addButton = document.getElementById("addBucket");
+					const allBuckets = document.getElementById("allBuckets");
+					let circles = 10
+				  
+					addButton.addEventListener("click", () => {
+						// Get values
+						const title = titleInput.value;
+						const progress = progressInput.value;
+
+						// Creat container
+						allBuckets.insertAdjacentHTML('beforeend', `
+						<div class="col-md-3 col-sm-6">
+							<div class="box">
+							<div class="circle" id="circles-${circles}"></div>
+							<h6>${title}</h6>
+							</div>
+						</div>`)
+
+						if (title != "" && progress != "") {
+							let number = parseInt(progress)
+							if (Number.isInteger(number)){
+								if(number>100){number=100}
+							} else {
+								number = 100
+							}
+
+							// Inictliase circle
+							if (title != "") {
+								var myCircle = Circles.create({
+									id: "circles-"+circles,
+									radius: 65,
+									value: number,
+									maxValue: 100,
+									width: 5,
+									text: function (value) {
+										return value + "%";
+									},
+									colors: ["transparent", "#ffffff"],
+									duration: 400,
+									wrpClass: "circles-wrp",
+									textClass: "progress_text",
+									valueStrokeClass: "circles-valueStroke",
+									maxValueStrokeClass: "circles-maxValueStroke",
+									styleWrapper: true,
+									styleText: true
+								});
+
+								// Increase circle counter
+								circles++;
+							}
+						}
+					})
+				  </script>
 			</div>
 			</div>
 		</div>
