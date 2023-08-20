@@ -31,23 +31,7 @@
     </div>
   </nav>
 
-  <!-- H E R O -->
-  <section id="hero">
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-          <img src="images/iphone.png" class="img-fluid" alt="Demo image">
-        </div>
-        <div class="col-md-7 content-box hero-content">
-          <span>Unlimited Data</span>
-          <h1>Digital Innovation and the <b>Future of Digital Marketing</b></h1>
-          <p>Boost your digital marketing campaigns and increase your conversion rates</p>
-          <a href="#" class="btn btn-regular">Learn more</a>
-        </div>
-      </div>
-    </div> -->
-  </section>
-  <!-- E N D  H E R O -->
+  <section id="hero"></section>
 
   <!-- E N D  M A R K E T I N G -->
   <section id="marketing">
@@ -62,7 +46,17 @@
           </div>
         </div>
         <div class="col-md-7">
-          <img src="images/demo-image.png" class="img-fluid" alt="Demo image">
+			<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+			<style>
+				#map {
+                height: 100%;
+            }
+			</style>
+
+			<div id="map"></div>
+
+			<script src="./js/maps/maps.js"></script>
+			<script src="./js/maps/config.js"></script>
         </div>
       </div>
     </div>
