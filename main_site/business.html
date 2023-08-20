@@ -135,64 +135,93 @@
         </div>
     </div>
 
-
-
-    <!-- Choose your challenge section -->
-
-    <!-- //a link from button (hit my goal) -->
-
-    <section class="skill_section layout_padding2">
+    <!-- My Buckets -->
+    <section id="mybuckets" class="skill_section layout_padding2">
         <div class="container">
             <div class="custom_heading-container">
-                <h2>
-                    Your Green Buckets
-                </h2>
+            <h2>Your Green Buckets</h2>
             </div>
             <div class="skill_padding">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="box">
-                            <div class="circle" id="circles-1"></div>
-                            <h6>
-                                Reduce 5000W of usage this month
-                            </h6>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="box">
-                            <div class="circle" id="circles-2"></div>
-                            <h6>
-                                Get Involve in a project to make your infrastructure a green hub
-                            </h6>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="box">
-                            <div class="circle" id="circles-3"></div>
-                            <h6>
-                                Plant a Tree
-                            </h6>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="box">
-                            <div class="circle" id="circles-4"></div>
-                            <h6>
-                                Reduce the use of one fuel vehicle/machinary for the month
-                            </h6>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="box">
-                            <div class="circle" id="circles-5"></div>
-                            <h6>
-                                2 more days to walk to a nearby location
-                            </h6>
-                        </div>
-                    </div>
+            <div id="allBuckets" class="row">
+                <div class="col-md-3 col-sm-6">
+                <div class="box">
+                    <div class="circle" id="circles-1"></div>
+                    <h6>Reduce 500W of usage this month</h6>
                 </div>
-                <button type="button" class="btn btn-info">Add Bucket</button>
-
+                </div>
+                <div class="col-md-3 col-sm-6">
+                <div class="box">
+                    <div class="circle" id="circles-2"></div>
+                    <h6>
+                    Get Involve in a project to make your infrastructure a green hub
+                    </h6>
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                <div class="box">
+                    <div class="circle" id="circles-3"></div>
+                    <h6>
+                    Plant a Tree
+                    </h6>
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                <div class="box">
+                    <div class="circle" id="circles-4"></div>
+                    <h6>
+                    Reduce the use of one fuel vehicle/machinary for the month
+                    </h6>
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                <div class="box">
+                    <div class="circle" id="circles-5"></div>
+                    <h6>
+                    2 more days to walk to a nearby location
+                    </h6>
+                </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">Add
+                Bucket</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Add Bucket</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body py-o pt-3">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                        <span class="input-group-text">Title</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="" aria-label="title" id="iTitle"
+                        aria-describedby="title">
+                    </div>
+                    </div>
+                    <div class="modal-body py-0">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                        <span class="input-group-text">Progress</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="" aria-label="progress" id="iProgress"
+                        aria-describedby="progress">
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button id="addBucket" type="button" class="btn btn-primary">Add</button>
+                    </div>
+                    <script src="./js/addcircle.js"></script>
+                </div>
+                </div>
+            </div>
+            <!-- Modal -->
             </div>
         </div>
     </section>
