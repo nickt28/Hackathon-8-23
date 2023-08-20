@@ -12,7 +12,7 @@ function initMap() {
 
   const infowindow = new google.maps.InfoWindow();
 
-  map.data.addListener("mouseover", (event) => {
+  map.data.addListener("click", (event) => {
     const iqt = event.feature.getProperty("iqt");
     const kw = event.feature.getProperty("kw");
     const postcode = event.feature.getProperty("postcode");
