@@ -28,7 +28,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link" href="./home.html">Household</a>
+                <a class="nav-item nav-link" href="./index.html">Household</a>
                 <a class="nav-item nav-link" href="./business.html">Business</a>
                 <a class="nav-item nav-link" href="./maps.html">Maps</a>
             </div>
@@ -36,14 +36,75 @@
     </nav>
     <!-- E N D  N A V B A R -->
 
-    <div class="px-4 py-5 my-5 text-center">
+    <!-- Circles here -->
+    <div class="container">
+        <div class="custom_heading-container">
+            <h2>
+              Your Environmental Contribution
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="circle" id="b-circles-1"></div>
+                <h6>Energy consumed</h6>
+            </div>
+            <div class="col">
+                <div class="circle" id="b-circles-2"></div>
+                <h6>Contribution of carbon emissions</h6>
+            </div>
+        </div>
+    </div>
+    <script>
+        function makeCircle(){
+            var myCircle = Circles.create({
+                id: "b-circles-1",
+                radius: 65,
+                value: 4301,
+                maxValue: 4301,
+                width: 5,
+                text: function (value) {
+                    return value + "kw";
+                },
+                colors: ["transparent", "#22b81f"],
+                duration: 400,
+                wrpClass: "circles-wrp",
+                textClass: "progress_text",
+                valueStrokeClass: "circles-valueStroke",
+                maxValueStrokeClass: "circles-maxValueStroke",
+                styleWrapper: true,
+                styleText: true
+            });
+            var myCircle = Circles.create({
+                id: "b-circles-2",
+                radius: 65,
+                value: 49,
+                maxValue: 100,
+                width: 5,
+                text: function (value) {
+                    return value + "%";
+                },
+                colors: ["transparent", "#22b81f"],
+                duration: 400,
+                wrpClass: "circles-wrp",
+                textClass: "progress_text",
+                valueStrokeClass: "circles-valueStroke",
+                maxValueStrokeClass: "circles-maxValueStroke",
+                styleWrapper: true,
+                styleText: true
+            });
+        }
+    </script>
+    <!-- Circles end -->
+
+
+    <!-- <div class="px-4 py-5 my-5 text-center">
         <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
         <h1 class="display-5 mb-4 fw-bold">CITIC PACIFIC MINING MANAGEMENT PTY LTD</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-3">[11:49 AM] 1,241,637 t CO2e -  Total Emissions</p>
           <p class="lead mb-3">[11:50 AM] 22,867,778 - Net energy consumed GJ</p>
         </div>
-    </div>
+    </div> -->
 
     <!-- Business EU  -->
     <section id="Beu">
@@ -121,11 +182,6 @@
             </div>
     </section>
 
-
-
-
-
-
     <!-- C A L L  T O  A C T I O N -->
     <section id="call-to-action">
         <div class="container text-center">
@@ -138,124 +194,11 @@
             </div>
         </div>
     </section>
-    <!-- E N D  C A L L  T O  A C T I O N -->
-    <section class="info_section layout_padding-top layout_padding2-bottom bg-warning">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="info_links pl-lg-5">
-                        <h4>
-                            Menu
-                        </h4>
-                        <ul>
-                            <li class="active">
-                                <a href="index.html">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="about.html">
-                                    Household
-                                </a>
-                            </li>
-                            <li>
-                                <a class="" href="portfolio.html">Business</a>
-                            </li>
-                            <li>
-                                <a class="" href="service.html">Maps</a>
-                            </li>
-                            <li>
-                                <a href="contact.html">
-                                    Contact Us
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="info_contact">
-                        <h4>
-                            Location
-                        </h4>
-                        <div>
-                            <img src="images/location.png" alt="" />
-                            <p>
-                                104 Melbourne St
-                            </p>
-                        </div>
-                        <div>
-                            <img src="images/telephone.png" alt="" />
-                            <p>
-                                ( +61 0334567890 )
-                            </p>
-                        </div>
-                        <div>
-                            <img src="images/envelope.png" alt="" />
-                            <p>
-                                minusCarbonOZ@gmail.com
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="info_social">
-                        <h4>
-                            Social Link
-                        </h4>
-                        <div class="social_container">
-                            <div>
-                                <a href="">
-                                    <img src="images/facebook-logo.png" alt="" />
-                                </a>
-                            </div>
-                            <div>
-                                <a href="">
-                                    <img src="images/twitter-logo.png" alt="" />
-                                </a>
-                            </div>
-                            <div>
-                                <a href="">
-                                    <img src="images/instagram.png" alt="" />
-                                </a>
-                            </div>
-                            <div>
-                                <a href="">
-                                    <img src="images/linkedin-sign.png" alt="" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="info_form">
-                        <h4>
-                            Newsletter
-                        </h4>
-                        <form action="#">
-                            <input type="text" placeholder="Enter Your Email" />
-                            <button type="submit">
-                                Subscribe
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- end info_section -->
 
     <!-- footer section -->
-    <footer class="container-fluid footer_section">
-        <p>
-            &copy; 2023 All Rights Reserved By
-            <a href="https://html.design/">Free Html Templates</a>
-        </p>
-    </footer>
-    <!-- footer section -->
-    <!--  F O O T E R  -->
-    <!-- <footer>
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -310,21 +253,12 @@
                 </div>
             </div>
         </div>
-    </footer> -->
-    <!--  E N D  F O O T E R  -->
+    </footer>
+    <!-- footer section -->
 
-
-    <!-- External JavaScripts -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-        crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/circles.min.js"></script>
 </body>
 
 </html>
